@@ -1,7 +1,8 @@
 body{
     background: url(images/bg-pattern.svg);
     background-repeat: no-repeat;
-    box-sizing: border-box;
+    ba
+    box-sizing: border-box !important;
 }
 
 .fondo{
@@ -9,10 +10,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 150px;
-}
-
-.mes{
-    margin-left: 5px;
 }
 
 p{
@@ -109,6 +106,8 @@ h2{
     display: flex;
     width: 50px;
     height: 26px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .switch-Container input{
@@ -175,19 +174,14 @@ a.btn.btn-style:hover{
     font-size: 15px;
 }
 
-@media (max-width: 993px) {
+@media only screen and (max-width: 991px) {
 
 .container{
     min-width: 375px;
 }
 
 .card{
-    padding: 50px 30px;
     margin-bottom: 50px;
-}
-
-.start{
-    flex-direction: column;
 }
 
 .start ul{
@@ -203,8 +197,8 @@ h4{
     justify-content: center;
 }
 
-div .col-md-12-col-lg-8d-flex-flex-direction-row-align-items-center-justify-content-center{
-    padding: 0 0 0 55px;
+.centrar{
+
 }
 
 }
