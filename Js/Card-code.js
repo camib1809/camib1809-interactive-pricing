@@ -35,6 +35,15 @@ slider.addEventListener("input",function (){
     slider.style.background = color;
 
     printpageViews();
+    
+    if(mySwitch.checked == true){
+        let x = price.textContent*0.25;
+        price.textContent = price.textContent - x;
+        
+    }else{
+        printpageViews();
+    }
+
 });
 
 //Descuento al activar el checkbox
